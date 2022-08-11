@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+.close{
+    opacity: 1 !important;
+    height: 16px !important;
+    width: 30px !important;
+}
+.listcart{
+    width: 50% ;
+}
+.img-product{
+    height: 50%;
+    width: 25%;
+}
+
+@media screen and (max-width: 992px) {
+    .listcart{
+        width: 100% !important;
+    }
+    .bill{
+        width: 100% !important;
+    }
+    .cart{
+        flex-direction: column;
+    }
+    .close{
+        height: 16px !important;
+        width: 30px !important;
+    }
+    .img-product{
+    height: 100% !important;
+    width: 100% !important;
+    }
+
+}

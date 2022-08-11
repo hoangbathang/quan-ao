@@ -1,0 +1,8 @@
+.bill{
+    width: 50% !important;
+}
+@media screen and (max-width: 992px) {
+    .bill{
+        width: 100% !important;
+    }
+}

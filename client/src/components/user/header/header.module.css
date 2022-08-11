@@ -1,0 +1,117 @@
+.top-bar {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  margin-bottom: 20px;
+}
+
+.card-text {
+  color: black;
+}
+
+.nav-link {
+  color: black !important;
+}
+
+.form-header {
+  justify-content: end;
+
+}
+
+.menu {
+  position: absolute;
+
+}
+
+.logo {
+  position: relative;
+}
+
+.nav-bar {
+  top: 0;
+  position: sticky;
+  width: 100%;
+  padding: 0;
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+  background-color: rgb(255, 255, 255);
+}
+
+.padding-navbar {
+  padding-bottom: 105px;
+}
+
+.cart {
+  display: inherit !important;
+}
+
+.hide-menu {
+  display: none;
+}
+
+.visible-menu {
+  display: inline-block;
+}
+
+
+
+@media screen and (max-width: 991px) {
+  .form-header {
+    justify-content: start;
+    flex-wrap: wrap;
+  }
+
+  .header {
+    position: relative;
+  }
+
+  .nav-header {
+    position: absolute;
+    top: 60px;
+  }
+
+  .form-header input {
+    width: 75% !important;
+  }
+
+  .form-header a {
+    padding-right: 10%;
+    padding-top: 10px;
+  }
+
+  .bt-search {
+    width: 25% !important;
+  }
+
+  .menu {
+    right: 0;
+    top: -60px;
+
+  }
+
+  .nav-bar {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    flex-direction: column;
+  }
+
+  .menuOnclick {
+    height: 100vh;
+  }
+
+  .top-bar {
+    height: 15%;
+  }
+
+  .dropdown-account {
+    margin-top: 10px !important;
+
+  }
+
+  .padding-navbar {
+    padding-bottom: 0px !important;
+  }
+
+}

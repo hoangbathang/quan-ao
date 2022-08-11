@@ -1,0 +1,9 @@
+.address{
+    width: 50% !important;
+}
+
+@media screen and (max-width: 992px) {
+    .address{
+        width: 100% !important;
+    }
+}
