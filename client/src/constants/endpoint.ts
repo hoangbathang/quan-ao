@@ -1,3 +1,3 @@
 export enum ENDPOINT{
-    URL = ' http://localhost:8888',
+    URL = 'https://api-quan-ao.herokuapp.com',
 }
