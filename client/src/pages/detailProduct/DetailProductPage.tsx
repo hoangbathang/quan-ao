@@ -26,7 +26,7 @@ const DetailProductPage = () => {
   }, [])
   return (
     <div>
-      {Isloading ? <DetailProduct></DetailProduct > : <NotFound></NotFound> }
+      {Isloading ? <DetailProduct></DetailProduct > : '' }
     </div >
   )
 }
